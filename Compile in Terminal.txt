@@ -1,0 +1,7 @@
+/*
+Compile in Terminal and run in terminal
+
+cd "path of the folder in which the script is"
+gcc "script name" -o "name"
+./"name"
+*/
