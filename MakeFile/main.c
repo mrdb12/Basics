@@ -1,5 +1,3 @@
-//TO USE THE MAKEFILE IN TERMINAL, GET INTO THE RIGHT DIRECTORY AND TYPRE "make"
-
 #include <stdio.h>
 #include "calc.h"
 
