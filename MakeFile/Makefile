@@ -1,4 +1,4 @@
-#TO USE THE MAKEFILE IN TERMINAL, GET INTO THE RIGHT DIRECTORY AND TYPRE "make"
+#TO USE THE MAKEFILE IN TERMINAL, GET INTO THE RIGHT DIRECTORY AND TYPRE "make" and add the target if needed
 
 main: calc.o main.o
 	gcc -std=c11 -Wall -Wextra calc.o main.o -o main
@@ -11,3 +11,6 @@ calc.o: calc.c
 
 clean:
 	rm main main.o calc.o
+
+launch: main
+	./main
