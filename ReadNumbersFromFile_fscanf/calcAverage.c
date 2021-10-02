@@ -18,5 +18,7 @@ int main(void){
   average = average/n;
   printf("%.2f", average);
 
+  fclose(file);
+
   return 0;
 }

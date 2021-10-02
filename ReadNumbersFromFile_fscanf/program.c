@@ -15,5 +15,7 @@ int main(void){
     printf("The number %.2f has been read\n", number);
   }
 
+  fclose(file);
+
   return 0;
 }

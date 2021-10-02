@@ -21,6 +21,8 @@ int main(void){
     printf("Yes\n");
   }
 
+  fclose(file);
+
 
   return 0;
 }
